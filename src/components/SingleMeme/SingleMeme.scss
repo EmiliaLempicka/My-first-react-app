@@ -1,0 +1,34 @@
+@import "src/assets/scss";
+
+.single-meme {
+   width: 600px;
+   margin: 0 auto;
+   color: $light-grey;
+   
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:  24px;
+        padding: 10px;
+        background-color: $dark-grey;
+        }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    &__main {
+        margin: 5px 0;
+    }
+    &__user {
+        margin: 10px 0;
+        background-color: $dark-grey;
+    }
+   &__img {
+       display: block;
+       margin-top: 10px;
+   }
+}
