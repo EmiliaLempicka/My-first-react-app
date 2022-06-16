@@ -1,9 +1,10 @@
 import React from 'react';
+import { SingleMeme } from './components/SingleMeme';
 
 function App() {
   return (
     <div>
-     Test
+      <SingleMeme />
     </div>
   );
 }
